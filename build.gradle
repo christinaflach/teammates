@@ -1,6 +1,9 @@
 apply plugin: "eclipse"
 apply plugin: "eclipse-wtp"
 apply plugin: "idea"
+plugins {
+  id "org.sonarqube" version "2.7"
+}
 
 apply plugin: "war"
 // apply plugin: "com.google.cloud.tools.appengine"
